@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def add_tuple(tuple_a=(), tuple_b=()):
-
+"""Return a tuple with the sum of two tuples, with missing integers taken as 0"""
     a = tuple_a or (0, 0)
     b = tuple_b or (0, 0)
     if(len(a) is 1):
